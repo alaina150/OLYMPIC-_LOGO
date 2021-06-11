@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Project 81</title>
+<link rel="stylesheet" type="text/css" href="C81style.css">
+</head>
+
+<body class="body_backgorund">
+
+    <center>
+        <h1>My First Canvas</h1>
+
+
+    ctx.beginPath();
+    ctx.strokeStyle= "Grey";
+    ctx.lineWidth = 4;
+    ctx.rect(150, 143, 430,200);
+    ctx.stroke();
+   
+   
+    ctx.beginPath();
+    ctx.strokeStyle= "Blue";
+    ctx.lineWidth = 5;
+    ctx.arc(250.100,40,0,2 *Math.PI);
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.strokeStyle= "Yellow";
+    ctx.lineWidth = 6;
+    ctx.arc(310,210,40,0,2 *Math.PI);
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.strokeStyle= "Black";
+    ctx.lineWidth = 5;
+    ctx.arc(250.100,40,0,2 *Math.PI);
+    ctx.stroke();
+
+
+    ctx.beginPath();
+    ctx.strokeStyle= "Green";
+    ctx.lineWidth = 6;
+    ctx.arc(310,210,40,0,2 *Math.PI);
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.strokeStyle= "Red";
+    ctx.lineWidth = 5;
+    ctx.arc(250.100,40,0,2 *Math.PI);
+    ctx.stroke();
+    
+    <!--ADDITIONAL ACTIVITY-->
+	<span>Color - </span> <input type="text" id="color">
+	<br>
+	<button onclick="clearArea();">Clear</button>
+
+</center>
+
+
+<script src="main.js"></script>
+</body>
+</html>
